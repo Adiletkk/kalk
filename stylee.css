@@ -1,0 +1,89 @@
+body{ 
+    background-image: url(https://img2.akspic.ru/crops/6/9/6/3/6/163696/163696-zxc-mramor-rok-dizajn-atmosfera-3840x2160.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.cals{
+    margin: 50px auto;
+    width: 300px;
+    height: 500px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    padding: 18px;
+    box-shadow: 4px 4px 4px #4f4f4f;
+}
+
+
+.cals-screen{
+    height: 90px;
+    padding: 10px;
+    display: grid;
+    justify-items: end;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.cals-screen p{
+    text-align: right;
+    font-size: 4rem;
+    margin: 0;
+}
+.buttons {
+    display: grid;
+    grid-template-areas: "ac plus-minus percent devision"
+    "seven eight nine multi"
+    "four five six minus "
+    "one two three plus"
+    "zero zero dot equal";
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn.zero{
+    grid-area: zero;
+    width: 100%;
+    border-radius: 35%;
+}
+
+
+.btn:hover{
+    filter: brightness(120%);
+}
+.btn:active{
+    filter: brightness(90%);
+}
+.btn.bg-grey {
+    background-color: #a6a6a6;
+}
+.btn.bg-orange{
+    background-color: #ff9501;
+}
+.tabBar button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 192, 74);
+    
+}
+.tabBar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

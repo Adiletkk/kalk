@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    width: 100%;
+   background-color: aqua;
+}
+.valute{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.valute p + p{
+    color: gray;
+    width: 50%;
+}
+.valute img + p{
+    width: 20%;
+    font-size: 1.7em;
+}
+.list{
+    height: 85%;
+    overflow: scroll;
+}
+.pageList > h1{
+    height: 10%;
+    text-align: center;
+    padding: 10px;
+}
+.pageList, .pageCalc{
+    height: 90vh;
+}
+.tabBar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tabBar button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 192, 74);
+}
+.pageGrad{
+    background-color: aqua;
+    background: url(./main.html);
+}
+.hide{
+    display: none;
+}
+.valute img{
+    width: 40px;
+}
+
+
+
